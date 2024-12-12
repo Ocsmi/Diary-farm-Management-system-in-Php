@@ -1,0 +1,124 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    background-color: #f0f8ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+/* Centered container for login form */
+.login-container {
+    background: linear-gradient(135deg, #6f42c1, #ff6f61);
+    padding: 30px 40px;
+    border-radius: 12px;
+    width: 100%;
+    max-width: 380px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transform: translateY(-30px);
+    animation: slide-up 0.5s ease-out;
+}
+
+@keyframes slide-up {
+    0% {
+        transform: translateY(-30px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Title of the form */
+.login-form h2 {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Input group styling */
+.input-group {
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+/* Input fields styling */
+.input-group input, .input-group select {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    margin-top: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+/* Focus effect */
+.input-group input:focus, .input-group select:focus {
+    border: 2px solid #6f42c1;
+}
+
+/* Button styling */
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 0;
+    font-size: 16px;
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Role select box */
+.select-group {
+    margin-bottom: 20px;
+}
+
+.select-group select {
+    width: 100%;
+    padding: 12px 15px;
+    border-radius: 8px;
+    border: 2px solid #ddd;
+    font-size: 16px;
+    outline: none;
+    transition: border 0.3s;
+}
+
+.select-group select:focus {
+    border: 2px solid #6f42c1;
+}
+
+/* Footer and link styling */
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999;
+}
+
+footer a {
+    color: #6f42c1;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
