@@ -45,6 +45,7 @@ Open a browser and navigate to your project by typing:
 If you have a specific file to load first, add it to the URL:
 
 http://localhost/YourProjectFolder/
+
 7. Test the Project
     Ensure all dependencies are working and the project is running correctly.
     Check for errors and resolve them.**
