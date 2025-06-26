@@ -49,3 +49,7 @@ http://localhost/YourProjectFolder/
 7. Test the Project
     Ensure all dependencies are working and the project is running correctly.
     Check for errors and resolve them.**
+
+![image](https://github.com/user-attachments/assets/2e0f27eb-b3a2-4165-ad40-1873edbf1135)
+
+
