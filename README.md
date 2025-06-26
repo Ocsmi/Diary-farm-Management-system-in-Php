@@ -50,6 +50,13 @@ http://localhost/YourProjectFolder/
     Ensure all dependencies are working and the project is running correctly.
     Check for errors and resolve them.**
 
+Farm Admin Dashboard
 ![image](https://github.com/user-attachments/assets/2e0f27eb-b3a2-4165-ad40-1873edbf1135)
 
+Veterinarian Dashboard
+![image](https://github.com/user-attachments/assets/3a684fb4-422a-4237-b834-4937cc89579a)
+
+Employee Dashboard
+![image](https://github.com/user-attachments/assets/55958f7f-31d5-4e7a-9fee-cffbd8a234be)
+![image](https://github.com/user-attachments/assets/55958f7f-31d5-4e7a-9fee-cffbd8a234be)
 
